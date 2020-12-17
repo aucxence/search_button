@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #eee;
+}
+
+body .search-box {
+  padding: 2rem;
+  background: #32c21f;
+  border-radius: 10rem;
+  -webkit-box-shadow: 10px 10px 50px 10px #32c21f;
+          box-shadow: 10px 10px 50px 10px #32c21f;
+  position: relative;
+}
+
+body .search-box:hover .search-field {
+  width: 650px;
+}
+
+body .search-box .search-btn {
+  background: #DBDB23;
+  border: none;
+  font-size: 4rem;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-box-shadow: 10px 10px 50px 10px #DBDB23;
+          box-shadow: 10px 10px 50px 10px #DBDB23;
+}
+
+body .search-box .search-btn i {
+  color: white;
+  opacity: 0.8;
+}
+
+body .search-box .search-field {
+  font-size: 3rem;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  background: none;
+  width: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .search-box .search-field::-webkit-input-placeholder {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+body .search-box .search-field:-ms-input-placeholder {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+body .search-box .search-field::-ms-input-placeholder {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+body .search-box .search-field::placeholder {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+body .search-box .search-field input:focus {
+  width: 650px;
+}
+/*# sourceMappingURL=my_style.css.map */
